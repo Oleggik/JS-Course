@@ -1,0 +1,41 @@
+header{
+	width: 90%;
+	height: 15%;
+	border: 3px;
+	margin: 0 auto;
+	border-radius: 5px;
+	background-color: red;
+	margin-bottom: 2%;
+}
+
+aside{
+	position: fixed;
+	width: 10%;
+	height: 600px;
+	background-color: rgba(0, 0, 0, 0.5);
+	margin-left: 5%;
+	text-align: center;
+}
+
+main{
+	margin-left: 16%;
+	background-color: yellow;
+	width: 77%;
+	padding: 1%;
+	height: 800px;
+}
+
+body{
+	height: 800px;
+	font-size: 18px;
+}
+
+footer{
+	width: 88%;
+	margin: 0 auto;
+	background-color: green;
+	padding: 1%; 
+	height: 13%;
+	border-radius: 5px;
+	margin-top: 1%;
+}
