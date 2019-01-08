@@ -1,0 +1,41 @@
+.block1{
+	display: inline-block;
+	width: 40%;
+	height: 20vh;
+	background-color: red;
+}
+
+.block2{
+	display: inline-block;
+	width: 59%;
+	height: 20vh;
+	background-color: orange;
+}
+
+.block3{
+	display: inline-block;
+	width: 99.3%;
+	height: 50vh;
+	background-color: green;
+}
+
+.block4{
+	display: inline-block;
+	width: 33%;
+	height: 27vh;
+	background-color: brown;
+}
+
+.block5{
+	display: inline-block;
+	width: 33%;
+	height: 27vh;
+	background-color: blue;
+}
+
+.block6{
+	display: inline-block;
+	width: 33%;
+	height: 27vh;
+	background-color: purple;
+}

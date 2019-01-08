@@ -3,18 +3,18 @@ header{
 	height: 15%;
 	border: 3px;
 	margin: 0 auto;
-	border-radius: 5px;
+	border-radius: 15px;
 	background-color: red;
 	margin-bottom: 2%;
 }
 
 aside{
 	position: fixed;
-	width: 10%;
+	width: 8%;
 	height: 600px;
 	background-color: rgba(0, 0, 0, 0.5);
 	margin-left: 5%;
-	text-align: center;
+	padding-left: 2%;
 }
 
 main{
@@ -36,6 +36,6 @@ footer{
 	background-color: green;
 	padding: 1%; 
 	height: 13%;
-	border-radius: 5px;
+	border-radius: 25px;
 	margin-top: 1%;
 }

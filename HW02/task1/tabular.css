@@ -1,0 +1,19 @@
+table{
+	    height: 97vh;
+		width:  99vw;
+}
+.layer1{
+	background-color: orange
+}
+
+.layer2{
+	background-color: yellow
+}
+
+.layer3{
+	background-color: blue
+}
+
+.layer4{
+	background-color: gray
+}

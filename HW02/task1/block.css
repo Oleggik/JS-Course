@@ -1,0 +1,27 @@
+.layer1{
+	display: inline-block;
+	width: 49.7%;
+	height: 24vh;
+	background-color: orange;
+}
+
+.layer2{
+	display: inline-block;
+	width: 99.7%;
+	height: 24vh;
+	background-color: yellow;
+}
+
+.layer3{
+	display: inline-block;
+	width: 33.1%;
+	height: 24vh;
+	background-color: blue;
+}
+
+.layer4{
+	display: inline-block;
+	width: 24.78%;
+	height: 24vh;
+	background-color: gray;
+}
