@@ -1,41 +1,121 @@
+body {
+    height: 98vh;
+}
+
+/*for FULL HD display*/
+@media (min-width: 1368px) and (max-width: 1920px) {
+	.block1{
+		display: inline-block;
+		width: 40%;
+		height: 20vh;
+		background-color: red;
+	}
+
+	.block2{
+		display: inline-block;
+		width: 59.2%;
+		height: 20vh;
+		background-color: orange;
+	}
+
+	.block3{
+		display: inline-block;
+		width:  99.5%;
+		height: 50vh;
+		background-color: green;
+	}
+
+	.block4{
+		display: inline-block;
+		width: 33%;
+		height: 27vh;
+		background-color: brown;
+	}
+
+	.block5{
+		display: inline-block;
+		width: 33%;
+		height: 27vh;
+		background-color: blue;
+	}
+
+	.block6{
+		display: inline-block;
+		width: 33%;
+		height: 27vh;
+		background-color: purple;
+	}
+
+}
+
+ /*for any iphone*/
+@media (min-width: 318px) and (max-width: 767px){
+
 .block1{
-	display: inline-block;
-	width: 40%;
-	height: 20vh;
-	background-color: red;
+		display: inline-block;
+		width:  99.5%;
+		height: 23vh;
+		background-color: green;
+		margin-bottom: 12px;
 }
 
 .block2{
-	display: inline-block;
-	width: 59%;
-	height: 20vh;
-	background-color: orange;
+		display: inline-block;
+		width:  99.5%;
+		height: 20vh;
+		background-color: purple;
+		margin-bottom: 5px;
 }
 
 .block3{
-	display: inline-block;
-	width: 99.3%;
-	height: 50vh;
-	background-color: green;
+		display: inline-block;
+		width:  99.5%;
+		height: 50vh;
+		background-color: red;
+
+	}
+
 }
 
-.block4{
-	display: inline-block;
-	width: 33%;
-	height: 27vh;
-	background-color: brown;
+ /*for any ipad*/
+@media (min-device-width: 768px) and (max-device-width: 1367px){
+	.block1{
+		display: inline-block;
+		width: 40%;
+		height: 16vh;
+		background-color: orange;
+	}
+
+	.block2{
+		display: inline-block;
+		width: 59.2%;
+		height: 16vh;
+		background-color: purple;
+	}
+
+	.block3{
+		display: inline-block;
+		width:  99.5%;
+		height: 53vh;
+		background-color: red;
+	}
+
+	.block4{
+		display: inline-block;
+		width: 49.5%;
+		height: 29vh;
+		background-color: green;
+	}
+
+	.block5{
+		display: inline-block;
+		width:  49.7%;
+		height: 29vh;
+		background-color: blue;
+	}
 }
 
-.block5{
-	display: inline-block;
-	width: 33%;
-	height: 27vh;
-	background-color: blue;
-}
 
-.block6{
-	display: inline-block;
-	width: 33%;
-	height: 27vh;
-	background-color: purple;
-}
+
+
+

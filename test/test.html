@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>test</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+</head>
+<body>
+	<header>
+			<img src="https://leverx.ru/images/header/ic_logo.svg" height="100%">
+			<div class="line">Helping Companies Leverage <br>Investments in SAP Solutions</div>
+			<input type="button" class="button" value="Main" onclick="location.href='https://leverx.ru/'" />
+			<div class="dropdown">
+    <div style="color: blue">Offices</div>
+    <ul>
+        <li>Минск, Беларусь, 223053, ул. Лопатина 7А, офис 16, Минский р-н, д. Копище;</li>
+        <li>Москва, Россия, 125167, Театральная аллея, 3, стр. 1, этаж 6</li>
+        <li>Маунтин Вью, США, 800 Вест Эль Камино Реал, Сьют 180, Маунтин Вью, США, CA 94040;</li>
+        <li>Детройт, США, 800 Киртс Булевард, Сьют 400, Трой, США, MI 48084;</li>
+    </ul>
+</div>
+<form>
+	<input type="text">
+	<button class="search">Search</button>
+</form>
+</header>
+
+<main>
+
+<div class="card" id="org_div1">
+  <img src="https://leverx.ru/images/header/ic_logo.svg" height="100%" style="width:100%">
+</div> 
+	<script>
+  document.body.onload = addElement;
+  var my_div = newDiv = null;
+
+  function addElement() {
+
+    var newDiv = document.createElement("div");
+        newDiv.innerHTML = "<div class="card"" id="org_div1";
+
+    my_div = document.getElementById("org_div1");
+    document.body.insertBefore(newDiv, my_div);
+  }
+</script>
+</main>
+</body>
+</html>
