@@ -3,7 +3,7 @@ body {
 }
 
 /*for FULL HD display*/
-@media (min-width: 1368px) and (max-width: 1920px) {
+@media (min-width: 1368px) and (max-width: 2920px) {
 	.block1{
 		display: inline-block;
 		width: 40%;
@@ -70,7 +70,7 @@ body {
 .block3{
 		display: inline-block;
 		width:  99.5%;
-		height: 50vh;
+		height: 52vh;
 		background-color: red;
 
 	}
